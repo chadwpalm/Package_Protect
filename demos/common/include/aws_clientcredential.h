@@ -40,7 +40,7 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a27oqtzq3gseqx-ats.i
 
 /* Use of a "define" and not a "static const" here to be able to
 * use pre-compile concatenation on the string. */
-#define clientcredentialIOT_THING_NAME "Chad-Sensor"
+#define clientcredentialIOT_THING_NAME "Package_Protect"
 
 /*
  * Port number the MQTT broker is using.
@@ -55,14 +55,14 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a27oqtzq3gseqx-ats.i
 /*
  * Wi-Fi network to join.
  */
-#define clientcredentialWIFI_SSID       "palmfamily"
-//#define clientcredentialWIFI_SSID       "SJSU_MyDevice"
+//#define clientcredentialWIFI_SSID       "palmfamily"
+#define clientcredentialWIFI_SSID       "SJSU_MyDevice"
 
 /*
  * Password needed to join Wi-Fi network.
  */
-#define clientcredentialWIFI_PASSWORD   "Imaginaryvase710"
-//#define clientcredentialWIFI_PASSWORD   ""
+//#define clientcredentialWIFI_PASSWORD   "Imaginaryvase710"
+#define clientcredentialWIFI_PASSWORD   ""
 
 /**
  * @brief Security type
@@ -70,7 +70,7 @@ static const char clientcredentialMQTT_BROKER_ENDPOINT[] = "a27oqtzq3gseqx-ats.i
  * Possible values are - eWiFiSecurityOpen, eWiFiSecurityWEP, eWiFiSecurityWPA,
  * eWiFiSecurityWPA2
  */
-#define clientcredentialWIFI_SECURITY   eWiFiSecurityWPA2
-//#define clientcredentialWIFI_SECURITY   eWiFiSecurityOpen
+//#define clientcredentialWIFI_SECURITY   eWiFiSecurityWPA2
+#define clientcredentialWIFI_SECURITY   eWiFiSecurityOpen
 
 #endif
